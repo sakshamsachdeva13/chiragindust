@@ -37,14 +37,14 @@ app.get('/feedback' , (req , res) => {
 
 app.get('/about' , (req , res) => {
 
-    res.render('about.hbs' , {css : "about.css"})
+    res.render('about.hbs' , {css : "about.css" ,})
 })
 
 
 
 app.get('/products' , (req , res) => {
 
-    res.render('products.hbs' , {css : "products.css"}) 
+    res.render('products.hbs' , {css : "products.css" , lnk : "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"}) 
 })
 
 

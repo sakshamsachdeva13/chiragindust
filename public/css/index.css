@@ -4,6 +4,7 @@ body {
 
 .navbar {
      position : fixed;
+     z-index: 1000;
      height : 50px; 
      width : 100%;
      top : 0;
@@ -17,9 +18,15 @@ nav {
     position : relative ;
 }
 
+.logo {
+     position : absolute;
+     width : 100px;
+     height : 130px;
+     left : 10px
+}
 
 
-.navcontent {
+.navcontenta {
    
     position : absolute ;
     width : 100px;
